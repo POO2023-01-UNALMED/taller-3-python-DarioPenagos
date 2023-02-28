@@ -3,7 +3,7 @@
 ##from televisores import Marca
 
 
-class control:
+class Control:
     def __init__(self, tv):
         self.tv = TV()
     def turnOn(self):
