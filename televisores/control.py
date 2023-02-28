@@ -1,11 +1,11 @@
 
-from televisores.tv import TV
+##from televisores.tv import TV
 
 
 
 class Control:
     def __init__(self):
-        self.tv = TV("a", True)
+        self.tv = null
 
     def turnOn(self):
         self.tv.turnOn()
