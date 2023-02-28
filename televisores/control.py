@@ -5,7 +5,7 @@ from televisores import *
 
 class Control:
     def __init__(self, tv):
-        self.tv = tv
+        self.tv = TV("a", True)
     def turnOn(self):
         self.tv.turnOn()
     def turnOff(self):
