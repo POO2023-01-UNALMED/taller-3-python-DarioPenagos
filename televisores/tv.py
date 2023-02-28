@@ -35,7 +35,8 @@ class TV:
         if 8 > volumen > 0 and self.estado:
             self.volumen = volumen
     def setCanal(self, canal):
-        self.canal = canal
+        if 121 > canal > 0:
+            self.canal = canal
     def setNumTV(num):
         numTV = num
     
