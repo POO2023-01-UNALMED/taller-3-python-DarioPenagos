@@ -9,8 +9,9 @@ class TV:
         self.canal = 1
         self.volumen = 1
         self.precio = 500
-        self.control = control()
+        self.control
         numTV += 1
+
     def getMarca(self):
         return self.marca
     def getControl(self):
