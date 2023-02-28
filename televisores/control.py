@@ -1,6 +1,6 @@
 
-##from televisores import TV
-##from televisores import Marca
+from televisores import TV
+from televisores import Marca
 
 
 class Control:
