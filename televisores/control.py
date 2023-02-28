@@ -5,7 +5,7 @@
 
 class Control:
     def __init__(self):
-        self.tv = null
+        self.tv = None
 
     def turnOn(self):
         self.tv.turnOn()
