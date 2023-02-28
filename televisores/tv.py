@@ -22,8 +22,8 @@ class TV:
         return self.volumen
     def getCanal(self):
         return self.canal
-    def getNumTV(self):
-        return self.numTV
+    def getNumTV():
+        return TV.numTV
 
     def setMarca(self, marca):
         self.marca = marca
