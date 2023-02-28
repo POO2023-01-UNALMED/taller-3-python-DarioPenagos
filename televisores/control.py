@@ -8,7 +8,7 @@ class Control:
         self.tv = None
 
     def turnOn(self):
-        self.tv.turnOn()
+        self.tv.estado = True
     def turnOff(self):
         self.tv.turnOff
     def canalUp(self):
