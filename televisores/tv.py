@@ -50,7 +50,7 @@ class TV:
     def canalUp(self):
         if 120 > self.canal and self.estado:
             self.canal += 1
-            print(self.canal)
+            print(self.name+self.canal)
     def canalDown(self):
         if self.canal > 1 and self.estado:
             self.canal -= 1
