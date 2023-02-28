@@ -35,6 +35,8 @@ class TV:
             self.volumen = volumen
     def setCanal(self, canal):
         self.canal = canal
+    def setNumTV(self, num):
+        self.numTV = num
     
     def turnOn(self):
         self.estado = True
