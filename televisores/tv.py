@@ -37,7 +37,6 @@ class TV:
     def setCanal(self, canal):
         if (121 > canal) and (canal > 0) and self.estado:
             self.canal = canal
-            print(self.canal + "metodo set")
     def setNumTV(num):
         numTV = num
     
@@ -54,6 +53,7 @@ class TV:
     def canalDown(self):
         if self.canal > 1 and self.estado:
             self.canal -= 1
+            print(self.canal)
     def volumenUp(self):
         if 7 > self.volumen and self.estado:
             self.volumen += 1
