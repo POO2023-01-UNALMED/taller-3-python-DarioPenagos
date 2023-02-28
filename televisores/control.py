@@ -4,8 +4,9 @@ from televisores import *
 
 
 class Control:
-    def __init__(self, tv):
-        self.tv = tv
+    def __init__(self):
+        self.tv = TV("a", True)
+
     def turnOn(self):
         self.tv.turnOn()
     def turnOff(self):
