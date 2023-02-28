@@ -26,7 +26,7 @@ class Control:
         self.tv = tv
         tv.control = self
     
-    def getTV(self):
+    def getTv(self):
         return self.tv
     def setTv(self, tv):
         self.tv = tv
