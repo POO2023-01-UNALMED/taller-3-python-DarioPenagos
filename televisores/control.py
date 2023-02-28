@@ -1,5 +1,5 @@
 
-from televisores import *
+from televisores.tv import TV
 
 
 
